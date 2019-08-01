@@ -16,9 +16,9 @@ module.exports = function() {
             stream: true
         }));
     });
-    // Перенос файла main.js в папку build
+    // Перенос файла common.js в папку build
     $.gulp.task('scripts', function() {
-        return $.gulp.src('src/static/js/main.js')
+        return $.gulp.src('src/static/js/common.js')
         .pipe($.gulp.dest('build/js/'))
         .pipe($.bs.reload({
             stream: true

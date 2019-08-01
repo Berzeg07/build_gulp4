@@ -6,6 +6,8 @@
 * [gulp-pug](https://www.npmjs.com/package/gulp-pug) — компиляция Pug в HTML;
 * [gulp-concat](https://www.npmjs.com/package/gulp-concat) - конкатенация файлов;
 * [gulp-sass](https://www.npmjs.com/package/gulp-sass) — компиляция SASS,SCSS в CSS;
+* [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps) — создание карты sourcemap;
+* [gulp-notify](https://www.npmjs.com/package/gulp-notify) — уведомление о событиях;
 * [gulp-csso](https://www.npmjs.com/package/gulp-csso) — объединение дублирующихся классов;
 * [gulp-watch](https://www.npmjs.com/package/gulp-watch) — отслеживание изменений в файлах проекта;
 * [Browsersync](https://browsersync.io/docs/gulp) — автообновление браузера;
@@ -42,7 +44,5 @@ gulp -v```;
 * Создать новый файл в ```gulp/tasks/``` с настройками плагина
 * Добавить обработку плагина в ```gulp/tasks/watch.js```
 * Добавить обработку плагина в ```gulpfile.js``` в таски ```default``` и ```build```
-* Все плагины ставим локально ```--save-dev```
-
 
 ***
