@@ -29,10 +29,10 @@ $.path.tasks.forEach(function (taskPath) {
 });
 
 $.gulp.task('default',$.gulp.series(
-    $.gulp.parallel('pug','sass','scripts:lib','scripts','img','fonts'),
+    $.gulp.parallel('pug','sass','scripts:lib','scripts','img','fonts', 'svg'),
     $.gulp.parallel('watch','serve')
 ));
 
 $.gulp.task('build',$.gulp.series(
-    $.gulp.parallel('pug','sass','scripts:lib','scripts','img','fonts')
+    $.gulp.parallel('pug','sass','scripts:lib','scripts','img','fonts', 'svg')
 ));
