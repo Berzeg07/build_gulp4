@@ -11,6 +11,11 @@
 * [gulp-csso](https://www.npmjs.com/package/gulp-csso) — объединение дублирующихся классов;
 * [gulp-watch](https://www.npmjs.com/package/gulp-watch) — отслеживание изменений в файлах проекта;
 * [Browsersync](https://browsersync.io/docs/gulp) — автообновление браузера;
+* [gulp-svg-sprite](https://www.npmjs.com/package/gulp-svg-sprite) — создание svg спрайта;
+* [gulp-svgmin](https://www.npmjs.com/package/gulp-svgmin) — минификация SVG;
+* [gulp-cheerio](https://www.npmjs.com/package/gulp-cheerio) — удаление лишних атрибутов из svg;
+* [gulp-replace](https://www.npmjs.com/package/gulp-replace) — фиксинг возможных багов при сборке svg спрайта;
+
 
 
 ## Как пользоваться?
@@ -24,6 +29,7 @@
 * Устанавливаем ```Gulp 4``` в папку с проектом ```$ npm install gulp --save-dev```;
 * проверка версии gulp и чтобы убедиться, что все корректно установлено: ```gulp -
 gulp -v```;
+* Устанавливаем пакеты из package.json: ```npm i```;
 * Начало работы: ```gulp``` gulp начинает следить за всеми файлами и запускается ```browserSync```
 * Сборка проекта: ```gulp-build``` проект собирается в папке ```build```
 
@@ -32,6 +38,7 @@ gulp -v```;
 *  ```src/pug/layout/layout.pug``` основной шаблон проекта
 *  ```src/pug/includes/*``` директория контентой части проекта и повторяющихся блоков сайта (header, footer), подключаем в нужном месте шаблона ```include ../includes/header```
 *  ```src/pug/pages``` папка для всех страниц проекта. Главная страница index.pug с подключенным шаблоном ```layout.pug```, контентная часть разбита на три инклюда ```header, content-main, footer``` все страницы проекта создаются по аналогии
+*  ```src/pug/includes/mixins.pug``` миксины pug
 *  ```src/pug/includes/links.pug``` все подключения файлов в ```head```
 *  ```src/pug/includes/footer.pug``` все подключения скриптов в блоке ```footer```
 *  ```src/static/libs``` файлы библиотек
