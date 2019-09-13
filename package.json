@@ -1,29 +1,29 @@
 {
-  "name": "gulp4",
-  "version": "1.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Berzeg_07",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-cheerio": "^0.6.3",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.1",
-    "gulp-load-plugins": "^2.0.0",
-    "gulp-notify": "^3.2.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-svg-sprite": "^1.5.0",
-    "gulp-svgmin": "^2.2.0",
-    "jquery": "^3.4.1"
-  }
+    "name": "gulp4",
+    "version": "6.4.1",
+    "description": "",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Berzeg_07",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-cheerio": "^0.6.3",
+        "gulp-concat": "^2.6.1",
+        "gulp-csso": "^3.0.1",
+        "gulp-load-plugins": "^2.0.0",
+        "gulp-notify": "^3.2.0",
+        "gulp-pug": "^4.0.1",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-svg-sprite": "^1.5.0",
+        "gulp-svgmin": "^2.2.0",
+        "jquery": "^3.4.1"
+    }
 }
