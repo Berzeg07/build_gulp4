@@ -5,5 +5,6 @@ module.exports = function() {
         $.gulp.watch('src/static/js/main.js',$.gulp.series('scripts'));
         $.gulp.watch('src/static/img/*',$.gulp.series('img'));
         $.gulp.watch('src/static/fonts/*',$.gulp.series('fonts'));
+        $.gulp.watch('src/static/svg/*',$.gulp.series('svg'));
     });
 }
