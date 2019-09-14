@@ -37,7 +37,8 @@ gulp -v```;
 * Сборка проекта: ```gulp-build``` проект собирается в папке ```build```
 * В настройках таска ```browserSync``` можем указывать страницу с которой на данный момент работаем
 
-```module.exports = function() {
+```
+module.exports = function() {
     $.gulp.task('serve', function() {
         $.bs.init({
             server: {
