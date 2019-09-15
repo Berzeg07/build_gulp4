@@ -25,5 +25,8 @@
         "gulp-svg-sprite": "^1.5.0",
         "gulp-svgmin": "^2.2.0",
         "jquery": "^3.4.1"
+    },
+    "dependencies": {
+        "gulp-rename": "^1.4.0"
     }
 }
