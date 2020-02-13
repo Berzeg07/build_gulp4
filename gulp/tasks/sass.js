@@ -11,12 +11,12 @@ module.exports = function() {
             }))
             // .pipe($.gp.csso())
             .pipe($.gp.sass({outputStyle: 'expanded'}))
-            .pipe($.gp.sourcemaps.write())
+            // .pipe($.gp.sourcemaps.write('./'))
             .pipe($.gulp.dest('build/css/'))
             // Минифицированная версия
             .pipe($.gp.sass({outputStyle: 'compressed'}))
             .pipe($.gp.rename('main.min.css'))
-            .pipe($.gp.sourcemaps.write())
+            .pipe($.gp.sourcemaps.write('./'))
             .pipe($.gulp.dest('build/css/'))
 
             .pipe($.bs.reload({
