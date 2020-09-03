@@ -1,7 +1,7 @@
-module.exports = function() {
+module.exports = function () {
 
-    $.gulp.task('svg', function() {
-        return $.gulp.src('src/static/svg/*.svg')
+    $.gulp.task('svg', function () {
+        return $.gulp.src('src/static/img/svg/*.svg')
             // minify svg
             .pipe($.gp.svgmin({
                 js2svg: {
@@ -10,7 +10,7 @@ module.exports = function() {
             }))
             // remove all fill, style and stroke declarations in out shapes
             .pipe($.gp.cheerio({
-                run: function($) {
+                run: function ($) {
                     // $('[fill]').removeAttr('fill');
                     // $('[stroke]').removeAttr('stroke');
                     // $('[style]').removeAttr('style');
