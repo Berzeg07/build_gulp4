@@ -1,7 +1,59 @@
 @font-face {
-    font-family: "Whitney";
-    font-weight: 300;
-    font-style: normal;
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Bold/Gilroy-Bold.eot");
+    src: local("☺"), url("../fonts/Gilroy-Bold/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold/Gilroy-Bold.ttf") format("truetype");
+    font-weight: 600;
     font-display: swap;
-    src: url("../fonts/Whitney-Light/Whitney-Light.woff") format("woff"), url("../fonts/Whitney-Light/Whitney-Light.eot") format("eot"), url("../fonts/Whitney-Light/Whitney-Light.ttf") format("ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Regular/Gilroy-Regular.eot");
+    src: local("☺"), url("../fonts/Gilroy-Regular/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular/Gilroy-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Medium/Gilroy-Medium.eot");
+    src: local("☺"), url("../fonts/Gilroy-Medium/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium/Gilroy-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: local("☺"),
+        url('../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: local("☺"),
+        url('../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: local("☺"),
+        url('../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: italic;
 }
