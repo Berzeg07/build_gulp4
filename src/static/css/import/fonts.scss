@@ -55,5 +55,5 @@
         url('../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.ttf') format('truetype');
     font-weight: 600;
     font-display: swap;
-    font-style: italic;
+    src: url("../fonts/Whitney-Light/Whitney-Light.woff") format("woff"), url("../fonts/Whitney-Light/Whitney-Light.eot") format("eot"), url("../fonts/Whitney-Light/Whitney-Light.ttf") format("ttf");
 }
